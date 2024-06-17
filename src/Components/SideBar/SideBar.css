@@ -1,0 +1,26 @@
+.sideBar {
+  position: fixed;
+  top: 0;
+  margin-top: 4rem;
+}
+.sideLinks div {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+.sideLinks div svg {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.sideLinks div {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  width: 10rem;
+}
+.sideLinks div:hover {
+  background-color: black;
+  color: wheat;
+  text-decoration: underline;
+  border-radius: 5px;
+}
