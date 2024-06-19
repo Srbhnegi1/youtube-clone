@@ -24,3 +24,23 @@
   text-decoration: underline;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .sideBar {
+    margin-top: 2rem;
+  }
+
+  .sideLinks div {
+    width: auto;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+  }
+  .sideLinks div svg {
+    display: none;
+  }
+  .sideLinks div:hover {
+    color: black;
+    background-color: whitesmoke;
+    text-decoration: none;
+  }
+}
