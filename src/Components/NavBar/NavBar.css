@@ -26,4 +26,7 @@
     align-items: center;
     justify-content: space-evenly;
   }
+  .navMiddle {
+    display: none;
+  }
 }

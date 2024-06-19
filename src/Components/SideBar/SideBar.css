@@ -24,3 +24,20 @@
   text-decoration: underline;
   border-radius: 5px;
 }
+@media screen and (max-width: 768px) {
+  .sideBar {
+    position: relative;
+    margin-top: 0;
+  }
+
+  .sideLinks div {
+    width: auto;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+  }
+
+  .sideLinks div svg {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+}
